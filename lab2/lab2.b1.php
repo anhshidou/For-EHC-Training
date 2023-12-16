@@ -10,7 +10,7 @@
         <label>x</label>
         <label>+</label>
         <input type="number" name="number2"> <br>
-        <p><input type="submit" value="calculate"></p>
+        <p><input type="submit" value="calculate"></p> // Browsers automatically add a single blank line before and after each <p> element.
         
     </form>
 
