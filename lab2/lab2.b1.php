@@ -9,8 +9,8 @@
         <input type="number" name="number1">
         <label>x</label>
         <label>+</label>
-        <input type="number" name="number2">
-        <input type="submit" value="calculate">
+        <input type="number" name="number2"> <br>
+        <p><input type="submit" value="calculate"></p>
         
     </form>
 
@@ -38,6 +38,8 @@ if (isset($_POST["number1"]) && isset($_POST["number2"])){
 
 
 }
+
+
 
 
 
