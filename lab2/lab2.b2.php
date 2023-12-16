@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<head> sum 1-> n <br> </head>
 <body>
+    <h1>Sum 1 -> n</h1>
     <form action="lab2.b2.php" method="post">
     <label>Enter n</label>
     <input type="number" name = "n">
