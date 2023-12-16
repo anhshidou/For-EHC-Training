@@ -1,1 +1,2 @@
-![image](https://github.com/anhshidou/For-EHC-Training-lab1/assets/120787381/77733510-d598-4e42-8e69-185139c02f75)
+![image](https://github.com/anhshidou/For-EHC-Training/assets/120787381/4c51a75c-d60f-4fa0-ad79-2b5b157baa8f)
+
