@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<head>Factorial <br></head>
+<title>EHC Training</title>
 <body>
+    <h1>Factorial</h1>
     <form action="lab2.b3.php" method="post">
     <label>Enter n =</label>
     <input type="number" name="num">
