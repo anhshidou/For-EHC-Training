@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang ="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
-    <meta name="viewport"content = "width = device-width, initial">
-    <title>Document</title>
-</head>
+
+<title>Document</title>
 <body>
 <h1>Calculator Basic</h1>
     <form action = "lab1_b2.php" method = "post">
-        <label>a</label>
-        <input type ="number" name = "a"> <br>
-        <label>b</label>
-        <input type="number" name="b"> <br>
+        <p>
+            <label>a</label>
+            <input type ="number" name = "a"> <br>
+        </p>
+        <p>
+            <label>b</label>
+            <input type="number" name="b"> <br>
+        </p>
         <input type="submit" value="Calculate"> <br>
     </form>
 
