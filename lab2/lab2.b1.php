@@ -31,7 +31,8 @@ if (isset($_POST["number1"]) && isset($_POST["number2"])){
         echo"Phương trình có vô số nghiệm";
     
     }
-    }else{$multi = -$number2 / $number1;
+    }else{
+        $multi = -$number2 / $number1;
     
     echo"phương trình có nghiệm là x = $multi";
     }
