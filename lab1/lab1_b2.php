@@ -25,12 +25,20 @@ if (isset($_POST["a"]) && isset($_POST["b"])) { // Checks if 'a' and 'b' are set
     $addition = $a + $b; // the Addition of $a and $b
     $subtraction = $a - $b; // Calculates the subtraction between $a and $b
     $multiplication = $a * $b; // Calculates the mult of $a and $b
-    $division = $a / $b; // Calculates the division of $a by $b
-    echo "Addition: $addition <br>"; // Displays the Addition
-    echo "Subtraction: $subtraction <br>"; // Displays the Subtraction
-    echo "Multiplication $multiplication <br>"; // Displays the mult
-    echo "Division: $division <br>"; // Displays the division
     
+    if ($b != 0){
+        $division = $a / $b; // Calculates the division of $a by $b
+        echo "Addition: $addition <br>"; // Displays the Addition
+        echo "Subtraction: $subtraction <br>"; // Displays the Subtraction
+        echo "Multiplication $multiplication <br>"; // Displays the mult
+        echo "Division: $division <br>"; // Displays the division
+        
+
+    } else {
+        echo "Không thể chia cho 0";
+    }
+} else {
+    echo "Hãy nhập số đúng giá trị";
 }
 
 
