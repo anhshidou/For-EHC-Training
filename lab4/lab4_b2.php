@@ -51,7 +51,7 @@ if (isset($_POST['sub'])) {
                 echo "Error uploading file!";
             }
         } else {
-            echo "<script type='text/javascript'>alert('Invalid file type!');</script>";
+            echo "invalid file type";
         }
     }
 }
